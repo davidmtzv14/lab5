@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  font-style: italic;
+  color: grey;
+  border: 1px solid grey;
+  padding: 15px;
+  max-width: 40%;
+}
+
+.checked > p {
+  text-decoration: line-through;
+}
